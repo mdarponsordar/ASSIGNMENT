@@ -4,6 +4,11 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.Secound-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
 .text-primany{
     color: #4e47ff;
@@ -27,9 +32,9 @@
 .header{
   background-image: url('../Assets/Hero-bg.png');
   padding-top: 10px;
-  padding-left: 150px;
-  padding-right: 150px;
-  padding-bottom: 120px;
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-bottom: 110px;
   text-align: center;
 }
 .nav{
@@ -42,6 +47,9 @@
   font-weight: bold;
   font-size: 35px;
 }
+
+/* Header End */
+
 
 /* Preview */
 .preview-section{
@@ -69,3 +77,109 @@
   width: 350px;
   border-radius: 48px;
 }
+/* Preview End */
+
+/* Ps */
+.ps{
+  max-width: 1140px;
+  background-color: #e5e7ff;
+  margin: 0px auto;
+  text-align: center;
+  border-radius: 24px;
+  margin: 0 auto;
+}
+.ps-maintext{
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+  padding-top: 50px;
+
+}
+.container-ps-grid{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 0px;
+}
+.ps-mainfont{
+  color: #4E47FF;
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.ps-secoundfont{
+  color: #0000007a;
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+/* Ps end */
+
+/* start Review */
+
+
+/* Testimonials */
+.testimonials {
+  padding-top: 50px;
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-bottom: 110px;
+  background-color: #fff;
+}
+
+.testimonials h2 {
+  color: #252432;
+  font-weight: bold;
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.testimonial-grid {
+  display: flex;
+  gap: 20px;
+  
+  justify-content: center;
+}
+
+.testimonial-card {
+  background: #f0f2fc;
+  padding: 20px;
+  border-radius: 12px;
+  width: 366px;
+  
+}
+.testimonial-card h2{
+  font-weight: bold;
+  font-size: 120;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.reviewer-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.reviewer-name {
+  font-weight: bold;
+  color: #757575;
+  margin: 0;
+}
+
+.review-date {
+  font-weight: 600;
+  font-size: 14px;
+  color: #7575759f;
+  margin: 0;
+}
+
+/* testimonial end */
