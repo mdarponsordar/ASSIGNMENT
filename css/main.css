@@ -27,12 +27,14 @@
   padding: 12px 36px;
   border-radius: 10px;
   border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
 }
 .btn-main:hover {
 color: #ffffff !important;
 background: #dd1f1f;
 border-color: #f00d0d !important;
-transition: all 0.4s ease 0s;
+transform: translateY(-3px) scale(1.05);
 }
 /* Header */
 .header{
@@ -266,6 +268,7 @@ color: #ffffff !important;
 background: #dd1f1f;
 border-color: #f00d0d !important;
 transition: all 0.4s ease 0s;
+transform: translateY(-3px) scale(1.05);
 }
 
 /* Conact Form */
