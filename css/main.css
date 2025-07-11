@@ -116,9 +116,6 @@
 }
 /* Ps end */
 
-/* start Review */
-
-
 /* Testimonials */
 .testimonials {
   padding-top: 50px;
@@ -183,3 +180,81 @@
 }
 
 /* testimonial end */
+
+/* Cta Section */
+.cta{
+  max-width: 1140px;
+  background-color: #e5e7ff;
+  margin: 0px auto;
+  text-align: center;
+  border-radius: 24px;
+  margin: 0 auto;
+  padding: 30px;
+}
+.cta-maintext{
+  font-weight: bold;
+  font-size: 50px;
+  margin: 20px auto;
+}
+.cta-secoundtext{
+  font-weight: normal;
+  color: #0000007a;
+}
+.cta-img{
+  padding: 20px;
+  border-radius: 48px;
+}
+
+/* cta section end */
+
+/* Conact Form */
+.contact {
+  display: flex;
+  max-width: 1140px;
+  margin: 90px auto;
+  padding: 30px;
+  background-color: #e5e7ff;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 24px;
+}
+.contact h2 {
+  font-weight: bold;
+  font-size: 97px;
+  padding: 20px;
+
+}
+.contact-form {
+  width: 397px;
+  margin: 20px auto;
+  padding: 50px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.contact-button{
+  background-color: #4e47ff;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 18px 185px;
+  border-radius: 10px;
+  border: none;
+}
+
+
+
